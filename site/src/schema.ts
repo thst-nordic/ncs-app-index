@@ -93,6 +93,7 @@ export const appMetadataSchema = {
         tags: {
             type: 'array',
             items: appTagSchema,
+            minItems: 1,
             description: 'An array of tags describing the application.',
         },
         license: {

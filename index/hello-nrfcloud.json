@@ -1,6 +1,6 @@
 {
     "name": "Thingy:91 X: Hello nRF Cloud firmware",
-    "description": "",
+    "description": "Firmware for Thingy:91 X devices connecting to hello.nrfcloud.com.",
     "apps": [
         {
             "title": "Thingy:91 X: Hello nRF Cloud firmware",

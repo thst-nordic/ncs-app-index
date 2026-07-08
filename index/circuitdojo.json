@@ -1,6 +1,6 @@
 {
     "name": "Circuit Dojo",
-    "description": "",
+    "description": "Examples and drivers for Circuit Dojo nRF9160 Feather development boards.",
     "apps": [
         {
             "name": "nrf9160-feather-examples-and-drivers",
