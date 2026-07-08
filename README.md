@@ -8,7 +8,7 @@ The Add-on index includes files contributed by different organizations.
 
 ## Contributing an Add-on
 
-If your organization has a project that you would like to include in this repository, read the [`CONTRIBUTING`](./CONTRIBUTING.md) and [`CONTRIBUTION CHECKLIST`](./docs/ContributionChecklist.md) for more information.
+If your organization has a project that you would like to include in this repository, read the [Add-On Index Onboarding Checklist](.github/ADDON_CHECKLIST.md), [`CONTRIBUTING`](./CONTRIBUTING.md), and [`CONTRIBUTION CHECKLIST`](./docs/ContributionChecklist.md) for more information.
 
 
 ----

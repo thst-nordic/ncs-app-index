@@ -81,7 +81,7 @@ async function fetchRepoData(
         // Special handling for Asset Tracker Template
         if (
             orgId === 'nrfconnect' &&
-            (app.name === 'asset-tracker-template' || app.repo?.toLowerCase().includes('asset-tracker-template'))
+            (app.name === 'Asset-Tracker-Template' || app.repo?.toLowerCase().includes('asset-tracker-template'))
         ) {
             try {
                 // Use GitHub API to fetch latest release(s)

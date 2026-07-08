@@ -1,6 +1,6 @@
 # Contribution guidelines
 
-If you or your organization has a project that you would like to include in the nRF Connect SDK Add-on index, you can do so by opening a pull request against this repository.
+If you or your organization has a project that you would like to include in the nRF Connect SDK Add-on index, you can do so by opening a pull request against this repository. Start with the [Add-On Index Onboarding Checklist](.github/ADDON_CHECKLIST.md) for the full list of requirements.
 
 The pull request must include a JSON file for your organization in the `index` directory. The common practice is to name that file after the contributor's organization.
 
@@ -23,6 +23,8 @@ If you use Visual Studio Code, the editor will automatically provide validation 
 ```
 npm run validate-index
 ```
+
+Pull requests that change `index/**/*.json` also trigger an automatic **GitHub Copilot code review** against the [onboarding checklist](.github/ADDON_CHECKLIST.md). Copilot posts a summary comment with pass/fail per checklist item. Repository admins must have [Copilot code review](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review) enabled and **Use custom instructions when reviewing pull requests** turned on (default).
 
 ## Publishing
 

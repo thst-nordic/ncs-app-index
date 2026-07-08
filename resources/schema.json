@@ -79,6 +79,7 @@
                     },
                     "tags": {
                         "type": "array",
+                        "minItems": 1,
                         "items": {
                             "enum": [
                                 "bluetooth",

@@ -32,6 +32,7 @@
             "sdk": "v3.0.0"
           }
         ],
+        "avatar": "https://avatars.githubusercontent.com/u/40860733?s=200&v=4",
         "defaultBranch": "v1.1.0-add-on",
         "docsUrl": "https://docs.nordicsemi.com/bundle/addon-sidewalk-latest/page/index.html"
     },
@@ -141,7 +142,7 @@
       "title": "nRF Connect SDK example application",
       "description": "Official reference implementation for various out-of-tree concepts, like boards, drivers and a CI setup.",
       "kind": "template",
-      "tags": [],
+        "tags": ["connectivity"],
       "apps": "app",
       "avatar": "https://avatars.githubusercontent.com/u/40860733?s=200&v=4",
       "docsUrl": "https://github.com/nrfconnect/ncs-example-application/blob/main/README.md",
@@ -218,7 +219,7 @@
       ]
     },
     {
-      "name": "asset-tracker-template",
+      "name": "Asset-Tracker-Template",
       "repo": "https://github.com/nrfconnect/Asset-Tracker-Template",
       "title": "Asset Tracker Template",
       "description": "Template for Asset Tracker applications running on the nRF91 Series SiP.",
@@ -229,12 +230,13 @@
       "docsUrl": "https://docs.nordicsemi.com/bundle/asset-tracker-template-latest/page/index.html",
       "releases": [
         {
-          "tag": "placeholder",
-          "name": "Releases are automatically populated by generate-index-json script",
-          "date": "1970-01-01T00:00:00Z",
-          "sdk": "placeholder"
+          "tag": "v1.2.6",
+          "name": "Asset Tracker Template v1.2.6",
+          "date": "2025-11-10T10:03:39Z",
+          "sdk": "fd20d7a44cf2361183b6b2dbdb79b5aff82fbd03"
         }
-      ]
+      ],
+      "defaultBranch": "v1.2.6"
     },
     {
       "name": "sdk-edge-ai",

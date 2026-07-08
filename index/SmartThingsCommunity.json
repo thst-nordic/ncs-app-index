@@ -1,6 +1,6 @@
 {
     "name": "SmartThingsCommunity",
-    "description": "",
+    "description": "SmartThings Find partnership program and device SDK for nRF chipsets.",
     "apps": [
         {
             "name": "SmartThingsFindPartnershipProgram",
