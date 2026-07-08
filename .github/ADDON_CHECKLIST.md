@@ -104,6 +104,7 @@ If none of the allowed `tags` values fit your add-on, open a **separate PR** tha
 
 - [ ] **`Validate index files` workflow passes** — triggered on PRs changing `index/*.json` ([`index-validation.yaml`](./workflows/index-validation.yaml)).
 - [ ] **`Deploy to GitHub Pages` build job passes** — also runs `validate-index` and type-check ([`pages-deploy.yaml`](./workflows/pages-deploy.yaml)).
+- [ ] **Copilot checklist review** — PRs that change `index/**/*.json` automatically request [GitHub Copilot code review](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review). Copilot evaluates the submission against [`.github/instructions/addon-index.instructions.md`](./instructions/addon-index.instructions.md) and posts a summary comment. Address required fixes before merge.
 - [ ] **Approval from `@nrfconnect/ncs-ci`** ([`CODEOWNERS`](./CODEOWNERS)).
 - [ ] **After merge**, index rebuilds automatically; no manual publish step.
 

@@ -24,6 +24,8 @@ If you use Visual Studio Code, the editor will automatically provide validation 
 npm run validate-index
 ```
 
+Pull requests that change `index/**/*.json` also trigger an automatic **GitHub Copilot code review** against the [onboarding checklist](.github/ADDON_CHECKLIST.md). Copilot posts a summary comment with pass/fail per checklist item. Repository admins must have [Copilot code review](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review) enabled and **Use custom instructions when reviewing pull requests** turned on (default).
+
 ## Publishing
 
 Once your pull request is approved and merged, the add-on index will be rebuilt and published automatically.
